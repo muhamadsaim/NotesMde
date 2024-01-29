@@ -194,3 +194,15 @@ button:focus {
   top: -7px;
   left: -2px;
 }
+
+.editor-wrapper {
+  .react-mde {
+    .mde-header {
+      .mde-tabs {
+        .selected {
+          border-radius: 50px;
+        }
+      }
+    }
+  }
+}
