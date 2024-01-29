@@ -104,6 +104,11 @@ button:focus {
 
 .selected-note {
   background-color: #d80ca0;
+  button {
+    .trash-icon {
+      color: white;
+    }
+  }
 }
 
 .selected-note .text-snippet {
